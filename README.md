@@ -2,13 +2,13 @@
 
 This repository documents my hands-on learning journey in **embedded systems**, **control engineering**, and **Edge AI**.
 
-The goal of this repo is not to present polished products, but to record **real engineering practice**: experiments, simulations, design decisions, bugs, and lessons learned.
+The goal of this repository is not to present polished products, but to record **real engineering practice**: experiments, simulations, design decisions, bugs, and lessons learned.
 
 ---
 
 ## 👤 About Me
 
-- Undergraduate student majoring in Electronic Information Engineering
+- Undergraduate student majoring in Electronic Information Engineering at ShangHai Normal University(China).
 - Focus areas: **Embedded Systems · Control Systems · Edge AI**
 - Interests: engineering-oriented learning, competitions, and open-source collaboration
 
