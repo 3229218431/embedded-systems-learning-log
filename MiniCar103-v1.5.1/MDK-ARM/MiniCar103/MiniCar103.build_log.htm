@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ‘£Âπ —Ó, ShangHaiNormalUniversity, LIC=32B1Q-N6FGS-56GQ2-9KL4C-5FI8W-8GI24
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  D:\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\lenovo\Downloads\MiniCar103-v1.5.1\MDK-ARM\MiniCar103.uvprojx
+Project File Date:  04/06/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\ARM\ARMCC\Bin'
+Build target 'MiniCar103'
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling FIFO.c...
+compiling TaskMain.c...
+..\App\src\TaskMain.c(70): error:  #146: too many initializer values
+      {0, 3, 1000, PntFunc},           // ÊâìÂç∞‰ªªÂä°ÔºöÂë®Êú?1000ms
+..\App\src\TaskMain.c: 0 warnings, 1 error
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling UsrTimer.c...
+..\App\src\UsrTimer.c(138): warning:  #223-D: function "abs" declared implicitly
+          predicted += (predicted > 0 ? 1 : -1) * delay_comp_factor * abs(current_error) / 100;
+..\App\src\UsrTimer.c(241): error:  #29: expected an expression
+      ::leftSpeed = leftSpeed;
+..\App\src\UsrTimer.c(242): error:  #29: expected an expression
+      ::rightSpeed = rightSpeed;
+..\App\src\UsrTimer.c: 1 warning, 2 errors
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_uart.c...
+compiling uart.c...
+compiling Board.c...
+compiling adc_bat.c...
+compiling oled_api.c...
+../Bsp/inc/oled/oledfont.h(264): error:  #8: missing closing quote
+      "Áö?",  // 0: Â∏∏Áî®Ê±âÂ≠ó
+../Bsp/inc/oled/oledfont.h(265): error:  #253: expected a ","
+../Bsp/inc/oled/oledfont.h(272): error:  #8: missing closing quote
+      "Êò?",  // 2: Âà§Êñ≠
+../Bsp/inc/oled/oledfont.h(273): error:  #253: expected a ","
+../Bsp/inc/oled/oledfont.h(276): error:  #8: missing closing quote
+      "‰∏?",  // 3: Âê¶ÂÆö
+../Bsp/inc/oled/oledfont.h(277): error:  #253: expected a ","
+../Bsp/inc/oled/oledfont.h(280): error:  #8: missing closing quote
+      "‰∏?",  // 4: ‰∏≠ÂõΩ
+../Bsp/inc/oled/oledfont.h(281): error:  #253: expected a ","
+../Bsp/inc/oled/oledfont.h(284): error:  #8: missing closing quote
+      "Âõ?",  // 5: ÂõΩÂÆ∂
+../Bsp/inc/oled/oledfont.h(285): error:  #253: expected a ","
+../Bsp/inc/oled/oledfont.h(268): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "unsigned char"
+      "‰∏Ä",  // 1: ‰∏Ä‰∏?
+../Bsp/inc/oled/oledfont.h(289): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "unsigned char"
+      "",     // Á©∫ÁôΩ
+../Bsp/inc/oled/oledfont.h(302): error:  #29: expected an expression
+  };
+../Bsp/inc/oled/oledfont.h(301): error:  #1514: an empty initializer is invalid for an array with unspecified bound
+  const unsigned char Hzk1[][32] = {
+../Bsp/inc/oled/oledfont.h(306): error:  #29: expected an expression
+  };
+../Bsp/inc/oled/oledfont.h(305): error:  #1514: an empty initializer is invalid for an array with unspecified bound
+  const unsigned char Hzk2[][72] = {
+../Bsp/inc/oled/oledfont.h(310): error:  #29: expected an expression
+  };
+../Bsp/inc/oled/oledfont.h(309): error:  #1514: an empty initializer is invalid for an array with unspecified bound
+  const unsigned char Hzk3[][128] = {
+../Bsp/inc/oled/oledfont.h(314): error:  #29: expected an expression
+  };
+../Bsp/inc/oled/oledfont.h(313): error:  #1514: an empty initializer is invalid for an array with unspecified bound
+  const unsigned char Hzk4[][512] = {
+..\Bsp\src\oled\oled_api.c: 0 warnings, 20 errors
+compiling Motor.c...
+compiling i2c_oled.c...
+"MiniCar103\MiniCar103.axf" - 23 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+<h2>Collection of Component include folders:</h2>
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
